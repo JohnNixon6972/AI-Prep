@@ -1,3 +1,5 @@
 streamlit
 litellm
 python-dotenv
+pypdf
+faiss-cpu
