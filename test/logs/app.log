@@ -1,0 +1,37 @@
+INFO:LiteLLM:
+LiteLLM completion() model= gpt-4.1-mini; provider = openai
+ERROR:root:FAIL | model=openai/gpt-4.1-mini | error = litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+INFO:LiteLLM:
+LiteLLM completion() model= claude-3-haiku; provider = anthropic
+ERROR:root:FAIL | model=anthropic/claude-3-haiku | error = litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` in your environment vars
+INFO:LiteLLM:
+LiteLLM completion() model= gpt-4.1-mini; provider = openai
+ERROR:root:FAIL | model=openai/gpt-4.1-mini | error = litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+INFO:LiteLLM:
+LiteLLM completion() model= claude-3-haiku; provider = anthropic
+ERROR:root:FAIL | model=anthropic/claude-3-haiku | error = litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` in your environment vars
+INFO:LiteLLM:
+LiteLLM completion() model= gpt-4.1-mini; provider = openai
+ERROR:root:FAIL | model=gpt-4.1-mini | error = litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+INFO:LiteLLM:
+LiteLLM completion() model= claude-3-haiku; provider = anthropic
+ERROR:root:FAIL | model=anthropic/claude-3-haiku | error = litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` in your environment vars
+INFO:LiteLLM:
+LiteLLM completion() model= gpt-4.1-mini; provider = openai
+ERROR:root:FAIL | model=gpt-4.1-mini | error = litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+INFO:LiteLLM:
+LiteLLM completion() model= claude-3-haiku; provider = anthropic
+ERROR:root:FAIL | model=anthropic/claude-3-haiku | error = litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` in your environment vars
+INFO:LiteLLM:
+LiteLLM completion() model= gpt-4.1-mini; provider = openai
+ERROR:root:FAIL | model=gpt-4.1-mini | error = litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+INFO:LiteLLM:
+LiteLLM completion() model= claude-3-haiku; provider = anthropic
+ERROR:root:FAIL | model=anthropic/claude-3-haiku | error = litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` in your environment vars
+INFO:LiteLLM:
+LiteLLM completion() model= gpt-4.1-mini; provider = openai
+INFO:LiteLLM:Wrapper: Completed Call, calling success_handler
+INFO:root:SUCCESS | model = gpt-4.1-mini | latency = 2.8s
+INFO:LiteLLM:
+LiteLLM completion() model= claude-3-haiku; provider = anthropic
+ERROR:root:FAIL | model=anthropic/claude-3-haiku | error = litellm.AuthenticationError: AnthropicException - {"error":{"message":"key not allowed to access model. This key can only access models=['gpt-4.1-mini']. Tried to access claude-3-haiku","type":"key_model_access_denied","param":"model","code":"401"}}
