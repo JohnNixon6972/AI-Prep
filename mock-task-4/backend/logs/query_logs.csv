@@ -1,0 +1,5 @@
+timestamp,model,endpoint,prompt,response_len,latency_ms,error
+1759396408,gpt-4.1-mini,/query,summarise,1059,3113,
+1759396445,gpt-4.1-mini,/eval,summarise,1047,3026,
+1759396447,gpt-4.1-mini,/eval,summarise,1050,2351,
+1759396490,gpt-4.1-mini,/agent,Assess critical path risk for Project A,2538,6344,
