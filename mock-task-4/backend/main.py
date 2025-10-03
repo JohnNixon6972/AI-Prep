@@ -7,7 +7,6 @@ import csv
 import os
 from typing import List, Dict, Any
 import litellm
-from litellm import OpenAI  # optional convenience depending on litellm version
 from rag_utils import load_projects, retrieve_relevant_docs, PROMPT_TEMPLATES
 import asyncio
 from dotenv import load_dotenv

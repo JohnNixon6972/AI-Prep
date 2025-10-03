@@ -1,0 +1,23 @@
+{
+  "projects": [
+    {
+      "id": "proj_A",
+      "name": "River Bridge Expansion",
+      "milestones": [
+        {"date": "2025-01-10", "title": "Groundworks start", "notes": "Excavation and piling begin. Expected duration 10 weeks."},
+        {"date": "2025-03-20", "title": "Concrete pour for pier 1", "notes": "Requires special weather window."},
+        {"date": "2025-04-15", "title": "Steel delivery", "notes": "Delayed due to supplier issues; ETA +3 weeks."},
+        {"date": "2025-05-01", "title": "Temporary bridge removal", "notes": "Contingent on road closure permit."}
+      ]
+    },
+    {
+      "id": "proj_B",
+      "name": "City Mall Renovation",
+      "milestones": [
+        {"date": "2024-12-01", "title": "Demolition phase", "notes": "Dust mitigation required; takes 4 weeks."},
+        {"date": "2025-01-15", "title": "Foundation reinforcement", "notes": "Unexpected soil conditions increased scope."},
+        {"date": "2025-02-28", "title": "Facade installation", "notes": "Supplier on time."}
+      ]
+    }
+  ]
+}

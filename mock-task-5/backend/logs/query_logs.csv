@@ -1,0 +1,11 @@
+ts,endpoint,agent,model,prompt,response_len,error
+1759476231,/ask,planner,"gpt-4.1-mini,gpt-4.1-mini",What risks could delay Project A?,46,0,
+1759476279,/ask,planner,"gpt-4.1-mini,gpt-4.1-mini",What risks could delay Project A?,46,0,
+1759476293,/ask,planner,"gpt-4.1-mini,gpt-4.1-mini",What risks could delay Project A?,46,0,
+1759476352,/ask,planner,"gpt-4.1-mini,gpt-4.1-mini",What risks could delay Project A?,46,0,
+1759476433,/ask,planner,"gpt-4.1-mini,gpt-4.1-mini",What risks could delay Project A?,46,0,
+1759476556,/ask,planner,"gpt-4.1-mini,gpt-4.1-mini",What risks could delay Project A?,46,0,
+1759476571,/ask,orchestrator,"gpt-4.1-mini,gpt-4.1-mini",What risks could delay Project A?,9,14661,
+1759476631,/ask,planner,"gpt-4.1-mini,gpt-4.1-mini",What risks could delay Project A?,46,0,
+1759476631,/ask,retriever,,What risks could delay Project A?,311,0,
+1759476643,/ask,orchestrator,"gpt-4.1-mini,gpt-4.1-mini",What risks could delay Project A?,9,12663,
